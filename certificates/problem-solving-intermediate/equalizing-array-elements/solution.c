@@ -10,7 +10,7 @@ int minOperations(int arr_count, int* arr, int threshold, int d)
     //sorting
     
     qsort(arr, arr_count, sizeof(int), cmp);
-    
+    //INT_MAX is a macro which represents the maximum integer value. 
     int minO = INT_MAX;
 
     for (int i = 0; i < arr_count; i++)
